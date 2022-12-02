@@ -10,8 +10,8 @@ public class Testing {
         Teacher teacher1 = new Teacher();
         teacher1.teacherName = "Signorina Rossi";
 
-        student1.grade = 4;
-        student2.grade = 2;
+        teacher1.assignGrade(student1, 5);
+        teacher1.assignGrade(student2, 7);
 
         student1.getStudentsDetails();
         student2.getStudentsDetails();
