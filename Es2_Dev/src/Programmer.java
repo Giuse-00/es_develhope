@@ -5,7 +5,7 @@ public class Programmer {
     public int yearsOfExperience;
 
     public void printProgrammerDetails(){
-        System.out.println(name + " " + programmingLanguage + " " + yearsOfExperience);
+        System.out.println(name + " is using " + programmingLanguage + " and has a " + yearsOfExperience + " years of experience");
     }
 
 }

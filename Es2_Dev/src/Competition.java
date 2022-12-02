@@ -2,8 +2,7 @@ public class Competition{
 
     public static void main(String[] args) {
 
-        CompetitionRules printR = new CompetitionRules();
-        printR.printRules();
+        CompetitionRules.getInstance().printRules();
 
         Team teamA = new Team();
         Team teamB = new Team();
